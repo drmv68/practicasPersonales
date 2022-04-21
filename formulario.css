@@ -1,0 +1,66 @@
+h1{
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Bitter', serif;
+	margin: 60px;
+	color: #192	;
+}
+button, .reset{
+	width: 100%;
+	border-radius: 10px;
+	border: none;
+	background: #333;
+	margin: 6px;
+}
+
+
+button:hover{
+	background: #666;
+}
+
+button:active{
+	background: #090;
+}
+
+.borrar:active{
+	background: #911;
+}
+
+label{
+	margin: 10px;
+}
+
+input:hover{
+	transition: .3s;
+	background: #555;
+	color: #fff;
+
+}
+
+input:focus{
+	background: #555;
+	color: #fff;
+
+}
+
+input{
+	margin: 12px;
+	display: flex;
+	justify-content: center;
+}
+
+.contenedor_mayor{
+	display: flex;
+	justify-content: center;
+}
+
+.contenedor{
+		padding: 33px;
+		-webkit-box-shadow: 4px 4px 17px 5px rgba(0,0,0,0.41);
+		-moz-box-shadow: 4px 4px 17px 5px rgba(0,0,0,0.41);
+		box-shadow: 4px 4px 17px 5px rgba(0,0,0,0.41);
+		max-width: 300px;
+		display: grid;
+		justify-content: center;
+		margin: 15px;
+};
